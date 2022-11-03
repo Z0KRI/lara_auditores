@@ -1,0 +1,344 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Rojas Lara Auditores{% endblock %}
+
+{% block body %}
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container px-4 px-lg-5 h-100">
+        <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-8 align-self-end">
+                <h1 class="text-white font-weight-bold">ROJAS LARA AUDITORES Y CONSULTORES S. C</h1>
+                <p class="text-white-75 mb-5">Somos una Firma constituida en la
+                    República Mexicana en el año de 2008, con objeto de proporcionar servicios profesionales
+                    propios de Contaduría Pública, a empresas o entidades de los sectores público y privado</p>
+                <hr class="divider" />
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <a class="btn btn-primary btn-xl" href="#portfolio">Nuestros Servicios</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio-->
+<div id="portfolio">
+    <div class="container-fluid p-0 pt-5 ps-4 pe-4">
+        <h2 class="text-center mt-0">SERVICIOS</h2>
+        <hr class="divider" />
+        <div class="row g-0">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" title="Auditoria de estados financieros." data-bs-toggle="modal" data-bs-target="#modalservices">
+                    <img class="img-fluid" src="/static/img/estadoFinanciero.jpg"/>
+                    <div class="portfolio-box-caption">
+                        <div class="project-name" data-bs-nameS >Auditoria de estados financieros.</div>
+                        <div class="project-category text-white p-4" data-bs-content="
+                        El examen de estados financieros de las empresas tiene como objetivo la emisión 
+                        de una opinión profesional independiente, respecto de la razonabilidad de la 
+                        información contenida en dichos estados financieros. <br><br>
+                        A través de la auditoria de estados financieros, se cumple con uno de los objetivos 
+                        primarios de la administración, que es contar con información financiera veraz y 
+                        oportuna, a fin de que los inversionistas y terceros interesados en la marcha de la 
+                        empresa puedan tomar adecuadas decisiones económicas fundamentadas y 
+                        evaluar la capacidad que tiene el grupo directivo para manejar los recursos puestos 
+                        bajo custodia y administración. <br><br>
+                        El servicio que presta la Firma en este campo incluye, como parte sustancial la 
+                        vigilancia del cumplimiento de las Normas de Información Financieras que rigen la 
+                        formulación de los estados financieros, el análisis y la interpretación de la 
+                        información financiera y evaluación del control interno y contable. <br><br>
+                        Nuestro trabajo nos permite presentar sugerencias constructivas que coadyuvan a 
+                        una eficiente operación de la empresa, las cuales previa discusión con la 
+                        administración y las áreas involucradas, consignamos en un informe por separado. <br><br>
+                        Este campo de actividad incluye la realización de auditorías para fines específicos, 
+                        como pueden ser la compra-venta y fusión de empresas, la verificación de bases o 
+                        montos de contratos celebrados, etc.<br><br>" >A través de la auditoria de estados financieros, se
+                            cumple con uno de los objetivos
+                            primarios de la administración, que es contar con información financiera veraz y
+                            oportuna.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" title="Asesoría Fiscal." data-bs-toggle="modal" data-bs-target="#modalservices">
+                    <img class="img-fluid" src="/static/img/Fiscal.jpg" />
+                    <div class="portfolio-box-caption">
+                        <div class="project-name" data-bs-nameS >Asesoría Fiscal.</div>
+                        <div class="project-category text-white p-4" data-bs-content=
+                        "Como resultado de la auditoria de estados financieros que se menciona en párrafos 
+                        anteriores, estamos en condiciones de emitir un Dictamen para Efectos Fiscales, 
+                        Seguro Social y Contribuciones Locales, en las que se informa a las autoridades 
+                        correspondientes del cumplimiento de las disposiciones legales en esta materia, a 
+                        las que está sujeta cada empresa. <br><br>
+                        La legislación en vigor, así como sus constantes modificaciones están enfocadas a 
+                        lograr un cumplimiento estricto de las disposiciones fiscales y el pago de los 
+                        impuestos. <br>
+                        Por otra parte, la viabilidad de las empresas requiere de una eficiencia en el manejo 
+                        de los recursos financieros, lo que obliga a realizar, como parte de la planeación estratégica y financiera, un análisis estricto que permita optimizar las cargas fiscales 
+                        relativas. <br><br>
+                        Dada la compleja estructura impositiva de los ordenamientos que rigen en nuestro 
+                        país, consideramos que es de suma importancia el servicio que en este aspecto 
+                        proporcionamos a nuestros clientes. <br><br>
+                        Estos servicios fiscales incluyen trabajos de consultoría fiscal como parte de la 
+                        planeación estratégica, asesoría en compra-venta de empresas, fisiones y 
+                        escisiones, análisis de problemas de precios de transferencia y el asesoramiento en 
+                        trámites de diversa naturaleza ante las diferentes dependencias gubernamentales, 
+                        tales como tramitación de devolución de saldos a favor de impuestos, asesoría en 
+                        la preparación de recursos de revocación, solicitudes de conformación de criterios 
+                        y apoyo a nuestros clientes en caso de revisiones que realizan las autoridades 
+                        fiscales, etc.">Estamos en condiciones de emitir un Dictamen para
+                            Efectos Fiscales,
+                            Seguro Social y Contribuciones Locales, en las que se informa a las autoridades
+                            correspondientes del cumplimiento de las disposiciones legales en esta materia, a
+                            las que está sujeta cada empresa
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" title="Project Name" data-bs-toggle="modal" data-bs-target="#modalservices" >
+                    <img class="img-fluid" src="/static/img/Integral.jpg" />
+                    <div class="portfolio-box-caption">
+                        <div class="project-name" data-bs-nameS >Servicios integrales.</div>
+                        <div class="project-category text-white p-4" data-bs-content="Para los clientes que se estén constituyendo o desarrollando inicio de actividades, 
+                        podemos apoyarlos en la definición de sus estatutos, la presentación de los avisos 
+                        fiscales para su registro, la contabilización de sus operaciones y la presentación de 
+                        sus declaraciones informativas, mensuales y anuales de impuestos, la elaboración 
+                        de la Nómina, SUA y la determinación del cálculo de los impuestos que se deriven 
+                        de la misma.<br><br>
+                        También asesoramos a nuestros clientes en problemas de depuración 
+                        de su contabilidad, determinación de cálculos para el registro de disposiciones que 
+                        obligan algunas normas de información financiera y que requieren su revelación en 
+                        los estados financieros, registro de reservas de pasivo y conversión de los mismos 
+                        a moneda extranjera, etc.">Podemos apoyarlos en la definición de sus
+                            estatutos, la presentación de los avisos
+                            fiscales para su registro, la contabilización de sus operaciones y la presentación de
+                            sus declaraciones informativas, mensuales y anuales de impuestos</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services-->
+<section class="page-section" id="services">
+    <div class="container px-4 px-lg-5 pt-2">
+        <h2 class="text-center mt-0">Nuestro Compromiso de Servicio.</h2>
+        <hr class="divider" />
+        <div class="row gx-4 gx-lg-5">
+            <div class="row no-gutters">
+                <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+                    style="
+                background: url('https://cdn.stocksnap.io/img-thumbs/960w/team-meeting_JBW2PXDOL6.jpg') center;
+                background-size: cover;
+                min-height: 400px;
+                "></div>
+                <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex  pt-3">
+                    <div class="content d-flex flex-column justify-content-center">
+                        <p style="font-family: arial;" class="fs-5">
+                            El principal objetivo que persigue la Firma, desde su fundación, es la prestación de
+                            servicios de la más alta calidad, que respondan a las necesidades específicas y
+                            particulares de cada uno de nuestros clientes y coadyuven a la solución de los
+                            problemas que se les presenten.El principal objetivo que persigue la Firma, desde su
+                            fundación, es la prestación de
+                            servicios de la más alta calidad, que respondan a las necesidades específicas y
+                            particulares de cada uno de nuestros clientes y coadyuven a la solución de los
+                            problemas que se les presenten.
+                        </p>
+                    </div><!-- End .content-->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="mt-5">
+                    <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                    <h3 class="h4 mb-2">Calidad Profesional.</h3>
+                    <p class="text-muted mb-0">La calidad de los servicios que prestamos se sustenta en la preparación
+                        técnica y
+                        en la experiencia que tiene nuestro personal profesional, lo que nos permite
+                        participar en la resolución de los problemas que enfrentan nuestros clientes.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="mt-5">
+                    <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                    <h3 class="h4 mb-2">Comunicación efectiva</h3>
+                    <p class="text-muted mb-0">Consideramos que es imperativo mantener una comunicación estrecha con
+                        nuestros clientes, que nos permita conocer los problemas que se les presentan y
+                        estar en condiciones de ofrecer alternativas de solución con la prontitud requerida.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="mt-5 text-center">
+                    <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                    <h3 class="h4 mb-2">Conocimiento del negocio y diagnóstico de sus necesidades.</h3>
+                    <p class="text-muted mb-0">El entorno económico en el que se desenvuelven las empresas en México ha
+                        tenido
+                        Modificaciones sustanciales y se espera que ocurran cambios más profundos aún
+                        en el futuro, lo que dificulta las gestaciones de la administración. Esta situación ha
+                        creado la necesidad de contar con expertos en los diversos campos de actividad
+                        para el análisis de los problemas y colaborar en su resolución.
+                        Nuestro compromiso de servicio nos obliga a conocer la industria a la que
+                        pertenecen las empresas y sus problemas específicos, de tal manera que podamos
+                        realizar diagnósticos precisos y ofrecer alternativas de solución adecuadas para
+                        cada cliente en particular.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Contáctanos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Sahra">
+                            <label for="floatingInput">*Nombre:</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Sahra">
+                            <label for="floatingInput">*Correo electrónico:</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Sahra">
+                            <label for="floatingInput">*Apellidos:</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="Sahra">
+                            <label for="floatingInput">*Número celular (10 dígitos):</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="modalservices" tabindex="-1" aria-labelledby="modalservicesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title w-100 text-center" id="modalservicesLabel" style="text-transform: capitalize; margin-left: 9%;"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-4"> 
+                        <div class="ImgPaste"></div>
+                        <div class="d-flex justify-content-center mt-5">
+                            <a class="btn btn-outline-secondary" data-bs-dismiss="modal" data-bs-target="#exampleModal" data-bs-toggle="modal">Solicitar informacion</a>
+                        </div>
+                    </div>
+                    <div class="col-8 pt-3 pb-3 ps-2 pe-4" data-bs-content style="text-align: justify; text-justify: inter-word;">    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+<!-- Footer-->
+{% block footer %}
+<footer class="bg-light py-5">
+    <div class="container px-4 px-lg-5">
+        <div class="row text-white-75">
+            <div class="col-6">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p class="fs-5 text-center">Direcciónes:</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer pt-2 text-center">
+                        <a href="">San Bernardino Mz-520 Lt-1 Col, Santa Úrsula Coapa, C.P. 04600, Delegación
+                            Coyoacán Ciudad de México.</a>
+                    </figcaption>
+                    <figcaption class="blockquote-footer pt-2 text-center">
+                        <a href="https://goo.gl/maps/mSTNzZq7ijbM3creA">CC. Palma 755, Pedregal de las Fuentes, 62554
+                            Jiutepec, Mor.</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-6">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p class="fs-5 text-center">Correo:</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer pt-2 text-center">
+                        <a class="georgy"
+                            href="mailto:rojaslaracontadores@outlook.com">rojaslaracontadores@outlook.com</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p class="fs-5 text-center">Telefonos:</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer pt-2 text-center">
+                        <a class="phone" href="tel:+(55)8985 1860"><cite title="Source Title">Tel. 55 8985 - 1860
+                            </cite></a>
+                    </figcaption>
+                    <figcaption class="blockquote-footer pt-2 text-center">
+                        <a class="phone" href="tel:(777)333 9087"><cite title="Source Title">Tel. 777 333 -
+                                9087</cite></a>
+                    </figcaption>
+                    <figcaption class="blockquote-footer pt-2 text-center">
+                        <a class="phone" href="tel:+(55)2726 9362">Tel. 55 2726 - 9362</a>
+                    </figcaption>
+                    <figcaption class="blockquote-footer pt-2 text-center">
+                        <a class="phone" href="tel:+(55)2726 9362">Tel. 55 1954 - 8062</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+
+{% block script %}
+<script>
+    var Services = document.getElementById('modalservices')
+    Services.addEventListener('show.bs.modal', function (event) {
+        // Button that triggered the modal
+        var button = event.relatedTarget
+        var service = button.querySelector('[data-bs-nameS]').textContent
+        var cont = button.querySelector('[data-bs-content]').getAttribute('data-bs-content')
+        var img = button.querySelector('img')
+
+        //Modal
+
+        var modalContent = Services.querySelector('[data-bs-content]')
+        var modalTitle = Services.querySelector('.modal-title')
+        var modalImg = Services.querySelector('.ImgPaste')
+
+        modalTitle.textContent = service
+        modalContent.innerHTML = cont
+        modalImg.innerHTML = img.outerHTML
+        
+    })
+</script>
+{% endblock %}
